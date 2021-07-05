@@ -1,0 +1,90 @@
+
+body{
+    		font-family: helvetica;
+    		color: #0645ad;
+            margin-left: 3.5em;
+            margin-right: 3.5em;
+            padding: 0;
+     
+    	}
+
+    	.titolo{
+    		font-size: 12em;
+    		font-weight: bold;
+    	}
+
+    	.titolo2{
+    		font-size: 8em;
+    		font-weight: lighter;
+    	}
+
+        .titoletto{
+            font-size: 4em;
+            font-weight: lighter;
+            margin-top: 2em;
+        }
+
+    	#box {
+  		height: 100vh;
+  		width: 100vw;
+  		margin-top: 25vh;
+		}
+
+        a:link, a:visited {
+            color:#0645ad;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        a:link:active, a:visited:active {
+            color: black;
+        }          
+
+
+
+
+
+.griglia{
+            margin-left: 0em;
+            margin-right: 4em;
+            max-width: 100vw;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-column-gap:1em;
+            
+
+
+        }
+
+        .cella{
+            /*outline: 1px red solid;*/
+            min-height: 5em;
+            margin-bottom: 1em; 
+        }
+
+
+        .doppia{
+            grid-column: span 2;
+        }
+
+        .tripla{
+            grid-column: span 3;
+        }
+
+
+        .quadrupla{
+            grid-column: span 4;
+        }   
+        p{
+            font-weight: lighter;
+            font-size: 0.9em;
+            color: black;
+        }
+      /*  p:hover{
+            font-size: 1em;
+            transition: 0.5s;
+        }
+*/
+
+
+
